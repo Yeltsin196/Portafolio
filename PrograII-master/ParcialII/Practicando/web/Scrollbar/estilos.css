@@ -1,0 +1,46 @@
+*{
+margin: 0;
+padding: 20px;
+
+
+}
+
+.texto{
+	height: 200px;
+	width: 300px;
+	border: 1px solid black;
+	overflow: auto;
+}
+
+.texto::-webkit-scrollbar{
+	width: 10px;
+}
+
+.texto::-webkit-scrollbar-track{
+		background-color: grey;
+}
+/* si le quito texto y le dejo solo los 2 :: se vuelve universal*/
+
+.texto::-webkit-scrollbar-thumb{
+	background-color: red;
+}
+.texto::-webkit-scrollbar-thumb:hover{
+	background-color: yellow;
+}
+
+.texto::-webkit-scrollbar-thumb:active{
+	background-color: green;
+}
+
+.texto::-webkit-scrollbar-button:decrement{
+	background-color: orange;
+	background-image: url(url);
+}
+.texto::-webkit-scrollbar-button:increment{
+	background-color: orange;
+	background-image: url(url);
+}
+
+
+
+

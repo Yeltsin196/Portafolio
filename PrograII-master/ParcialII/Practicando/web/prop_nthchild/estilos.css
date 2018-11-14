@@ -1,0 +1,42 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Helvetica;
+}
+
+caption{
+	font-size: 30px;
+
+}
+
+table{
+	border-collapse: collapse;
+	margin: 30px auto;
+}
+
+thead th{
+	border: -bottom: 1px solid #8d1f6f;
+}
+
+th,td {
+	padding: 10px 15px;
+	border-right: 1px solid #8d1f6f;
+	border-bottom: 3px solid #8d1f6f;
+}
+
+th:last-child, td:last-child{
+	border-right: none;
+}
+
+tbody tr:last-child td{
+	border-bottom: none;
+}
+tbody tr:nth-child(2n+1){
+	background-color: blue;
+	color: white;
+	
+}
+colgroup col:nth-child(1){
+	background-color: green;
+	
+}

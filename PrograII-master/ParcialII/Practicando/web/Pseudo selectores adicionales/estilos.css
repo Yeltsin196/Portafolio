@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+
+
+}
+
+form{
+	width: 20%
+}
+
+input:enabled{
+
+	background:green;
+	color:red;
+}
+
+input:disabled{
+	width: 20px;
+	height: 20px;
+
+}
+
+input:checked{
+	width: 20px;
+	height: 20px;
+}

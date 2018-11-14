@@ -1,0 +1,27 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+}
+article>*{
+	padding: 6px;
+	margin: 2px;
+	border: 1px solid #3282c7;
+}
+
+/*article div:only-of-type{
+	background-color: aquamarine;
+}*/
+
+/*article p:only-of-type{
+	background-color: aquamarine;
+}*/
+
+article li:nth-of-type(2){
+	background-color: aquamarine;
+
+}
+
+/*article li: only-of-type{
+	background-color: blue;
+}*/

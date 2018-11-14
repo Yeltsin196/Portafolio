@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+[title= "Etiqueta1"]{
+	background-color: red;
+}
+
+[data-parrafo~="parrafo"]{
+
+	background-color: bisque; 
+	font-size: 20px;
+}
+h3[title=con]{
+background-color: green;
+color:white;
+padding: 10px;
+
+}
+h3[title$=n1]{
+background-color: red;
+color:white;
+padding: 10px;
+
+}

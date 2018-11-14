@@ -1,0 +1,5 @@
+0.
+banana, strawberry, OrAnGe.
+Banana, StRaWbErRy, orange.
+10, 8, 6, 4, 2, 0.
+x, 30, -20, z, 1000, 1, Y.
