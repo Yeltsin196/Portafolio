@@ -1,0 +1,3 @@
+Una clave numérica para cadena de caracteres consiste en sumar los códigos ASCII de cada caracter que la componen. Sin embargo el método no produce claves únicas distintivas, por lo cual se propone hacer una prueba programada de la siguiente manera:
+1.- Extraer de un archivo de texto sin formato las palabras sin espacios o signos de puntuación y calcular su clave numérica.
+2.- Ingresar las palabras a un árbol AVL clasificado por clave numérica. Cuando existan varias palabras con la misma clave entonces se almacenarán en una lista simple clasificada alfabéticamente en el nodo del árbol.
